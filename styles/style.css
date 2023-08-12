@@ -1,12 +1,36 @@
-h1{
-    color: blue;
+body {
+    background-image: url(https://megafrases.com.br/wp-content/uploads/2023/06/1-wallpaper-minimalist-desktop-pc-notebook-4k-full-hd.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-#principal{
-    color: blueviolet;
-    font-size: 10px;
+#caixa-mae {
+    width: 2000px;
+    height: 600px;
+    background-color: blue;
+    display: flex;
+    flex-direction:column-reverse;
+    justify-content: space-around;
+    margin-top: 600px;
 }
 
-#foto-principal {
-    width: 300px;
+#caixa-filha1 {
+    width: 100%;
+    height: 30%;
+    background-color: coral;
+    margin-bottom: -200px;
+}
+
+#caixa-filha2 {
+    width: 100%;
+    height: 30%;
+    background-color:aqua;
+    margin-bottom: -350px;
+}
+
+#caixa-filha3 {
+    width: 100%;
+    height: 30%;
+    background-color:yellow;
+    margin-bottom: -320px;
 }
